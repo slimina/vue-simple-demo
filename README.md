@@ -28,3 +28,28 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 >npm run dev #开发运行
 
 >npm run build #上线打包
+
+mpm命令介绍：
+```
+npm install (with no args, in package dir)
+npm install [<@scope>/]<name>
+npm install [<@scope>/]<name>@<tag>
+npm install [<@scope>/]<name>@<version>
+npm install [<@scope>/]<name>@<version range>
+npm install <tarball file>
+npm install <tarball url>
+npm install <folder>
+
+alias: npm i
+common options: [-S|--save|-D|--save-dev|-O|--save-optional] [-E|--save-exact] [--dry-run]
+
+-S, --save 安装包信息将加入到dependencies（生产阶段的依赖）
+-D, --save-dev 安装包信息将加入到devDependencies（开发阶段的依赖），所以开发阶段一般使用它
+-O, --save-optional 安装包信息将加入到optionalDependencies（可选阶段的依赖）
+-E, --save-exact 精确安装指定模块版本,留意package.json 文件的 dependencies 字段，以看出版本号中的^消失了
+注：全局安装（global）,使用 -g 或 --global
+```
+默认安装最新版本，npm install 组件@3.9.1 指定版本号
+
+
+npm init vue-cli 在项目中引导创建一个vue项目工程
