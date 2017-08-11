@@ -8,6 +8,7 @@
 |Element UI|[http://element.eleme.io](http://element.eleme.io/#/zh-CN)|基于 Vue 2.0 的组件库|
 |axios|[https://github.com/mzabriskie/axios](https://github.com/mzabriskie/axios)| http请求替代vue-resource|
 |webpack|[https://webpack.js.org/](https://webpack.js.org/)|编译打包工具|
+|vuex|[https://vuex.vuejs.org/zh-cn/intro.html](https://vuex.vuejs.org/zh-cn/intro.html)|Vue.js 应用程序开发的状态管理模式|
 
 ## 使用步骤
 
